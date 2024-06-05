@@ -1,0 +1,6 @@
+@VisitorSecurityClearance_HostAddress = http://localhost:5089
+
+GET {{VisitorSecurityClearance_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
