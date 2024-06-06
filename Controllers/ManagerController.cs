@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace VisitorSecurityClearance.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[[action]/[controller]")]
     [ApiController]
     public class ManagerController : ControllerBase
     {
